@@ -143,8 +143,6 @@ Open to software engineering internships, open-source mentorships, and backend o
   </a>
 </p>
 
-<br />
-
 <p align="center">
   <picture>
     <source
