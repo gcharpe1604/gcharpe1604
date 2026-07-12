@@ -2,11 +2,18 @@ name: Update profile visuals
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "15 0 * * *"
+  push:
+    paths:
+      - ".github/workflows/profile-visuals.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: true
 
 jobs:
   generate:
@@ -15,25 +22,25 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Create output directory
         run: mkdir -p assets/profile
 
-      - name: Generate dark contribution statistics
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate dark streak statistics
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars&include_all_commits=true&show=reviews,prs_merged&hide_border=true&bg_color=00000000&title_color=AFC3D5&text_color=D6DCE3&icon_color=D1B178&custom_title=Contribution%20Statistics
-          path: assets/profile/github-stats-dark.svg
+          options: >-
+            user=${{ github.repository_owner }}&background=0B0F15&stroke=27313C&ring=D1B178&fire=D1B178&currStreakNum=F3F5F7&sideNums=AFC3D5&currStreakLabel=8E98A6&sideLabels=8E98A6&dates=6B7280&hide_border=true&border_radius=12&card_width=680
+          path: assets/profile/github-streak-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate light contribution statistics
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate light streak statistics
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars&include_all_commits=true&show=reviews,prs_merged&hide_border=true&bg_color=00000000&title_color=4E708F&text_color=334155&icon_color=A47A3C&custom_title=Contribution%20Statistics
-          path: assets/profile/github-stats-light.svg
+          options: >-
+            user=${{ github.repository_owner }}&background=F8FAFC&stroke=E2E8F0&ring=A47A3C&fire=A47A3C&currStreakNum=0F172A&sideNums=4E708F&currStreakLabel=475569&sideLabels=475569&dates=64748B&hide_border=true&border_radius=12&card_width=680
+          path: assets/profile/github-streak-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate contribution snake
@@ -41,13 +48,14 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/profile/github-contribution-grid-snake.svg?palette=github-light&color_snake=#B28A50
-            assets/profile/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#D1B178
+            assets/profile/github-contribution-grid-snake.svg?color_snake=#A47A3C&color_dots=#F8FAFC,#E2E8F0,#AFC3D5,#7897B3,#4E708F
+            assets/profile/github-contribution-grid-snake-dark.svg?color_snake=#D1B178&color_dots=#0D1117,#1F2933,#334A5F,#5F7D99,#AFC3D5
 
       - name: Commit generated visuals
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/profile/*.svg
-          git diff --cached --quiet || git commit -m "chore(profile): update contribution visuals"
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(profile): update contribution visuals"
           git push
