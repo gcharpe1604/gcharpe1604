@@ -82,15 +82,16 @@ A full-stack application for tracking open-source contributions, repositories, p
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-stats-dark.svg"
+      srcset="./assets/profile/github-stats-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-stats-light.svg"
+      srcset="./assets/profile/github-stats-light.svg"
     />
     <img
-      src="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-stats-light.svg"
+      src="./assets/profile/github-stats-light.svg"
       alt="Govind Charpe's GitHub contribution statistics"
+      width="495"
     />
   </picture>
 </p>
@@ -149,14 +150,14 @@ I am interested in software engineering internships, open-source mentorships, ba
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-contribution-grid-snake-dark.svg"
+      srcset="./assets/profile/github-contribution-grid-snake-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-contribution-grid-snake.svg"
+      srcset="./assets/profile/github-contribution-grid-snake.svg"
     />
     <img
-      src="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-contribution-grid-snake.svg"
+      src="./assets/profile/github-contribution-grid-snake.svg"
       alt="Contribution snake animation"
       width="100%"
     />
