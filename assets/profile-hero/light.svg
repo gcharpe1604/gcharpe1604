@@ -38,16 +38,16 @@
   <clipPath id="canvasClip"><rect x="10" y="10" width="1160" height="590" rx="28"/></clipPath>
   <clipPath id="leftClip"><rect x="34" y="34" width="398" height="542" rx="24"/></clipPath>
   <clipPath id="rightClip"><rect x="450" y="34" width="696" height="542" rx="24"/></clipPath>
-  <clipPath id="roleClip0"><rect x="482" y="184" width="0" height="31">
+  <clipPath id="roleClip0"><rect x="482" y="195" width="0" height="31">
   <animate attributeName="width" values="0;246;246;0;0" keyTimes="0;0.078;0.195;0.238;1" dur="16s" repeatCount="indefinite"/>
 </rect></clipPath>
-<clipPath id="roleClip1"><rect x="482" y="184" width="0" height="31">
+<clipPath id="roleClip1"><rect x="482" y="195" width="0" height="31">
   <animate attributeName="width" values="0;0;286;286;0;0" keyTimes="0;0.25;0.328;0.445;0.488;1" dur="16s" repeatCount="indefinite"/>
 </rect></clipPath>
-<clipPath id="roleClip2"><rect x="482" y="184" width="0" height="31">
+<clipPath id="roleClip2"><rect x="482" y="195" width="0" height="31">
   <animate attributeName="width" values="0;0;262;262;0;0" keyTimes="0;0.5;0.578;0.695;0.738;1" dur="16s" repeatCount="indefinite"/>
 </rect></clipPath>
-<clipPath id="roleClip3"><rect x="482" y="184" width="0" height="31">
+<clipPath id="roleClip3"><rect x="482" y="195" width="0" height="31">
   <animate attributeName="width" values="0;0;240;240;0;0" keyTimes="0;0.75;0.828;0.945;0.988;1" dur="16s" repeatCount="indefinite"/>
 </rect></clipPath>
   <clipPath id="asciiLine0"><rect x="57" y="88.0" width="0" height="23">
@@ -223,49 +223,49 @@
   </path>
 </g>
 
-<text x="482" y="119" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16.5" font-weight="560" fill="#66717F">Hello, I'm</text>
-<text x="482" y="162" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="42" font-weight="780" letter-spacing="-1.35" fill="url(#nameGradient)">Govind Charpe</text>
-<path d="M483 173H681" stroke="#8E6B3A" stroke-width="1.5" stroke-linecap="round" opacity=".72"><animate attributeName="stroke-dasharray" values="0 198;198 0" dur="1.4s" fill="freeze"/></path>
-<text x="482" y="189" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="700" letter-spacing="1.65" fill="#66717F">OPEN SOURCE  ·  BACKEND SYSTEMS  ·  DEVELOPER TOOLS</text>
-<text x="482" y="213" clip-path="url(#roleClip0)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.2" font-weight="650" fill="#4E7391">Full Stack Developer</text>
-<text x="482" y="213" clip-path="url(#roleClip1)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.2" font-weight="650" fill="#4E7391">Open Source Contributor</text>
-<text x="482" y="213" clip-path="url(#roleClip2)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.2" font-weight="650" fill="#4E7391">Backend &amp; API Builder</text>
-<text x="482" y="213" clip-path="url(#roleClip3)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.2" font-weight="650" fill="#4E7391">Learning Go Systems</text>
-<rect x="482" y="195" width="6" height="22" rx="1.5" fill="#936F3F">
+<text x="482" y="116" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16.5" font-weight="560" fill="#66717F">Hello, I'm</text>
+<text x="482" y="157" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="42" font-weight="780" letter-spacing="-1.35" fill="url(#nameGradient)">Govind Charpe</text>
+<path d="M483 170H681" stroke="#8E6B3A" stroke-width="1.5" stroke-linecap="round" opacity=".72"><animate attributeName="stroke-dasharray" values="0 198;198 0" dur="1.4s" fill="freeze"/></path>
+<text x="482" y="197" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="700" letter-spacing="1.65" fill="#66717F">OPEN SOURCE  ·  BACKEND SYSTEMS  ·  DEVELOPER TOOLS</text>
+<text x="482" y="224" clip-path="url(#roleClip0)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.2" font-weight="650" fill="#4E7391">Full Stack Developer</text>
+<text x="482" y="224" clip-path="url(#roleClip1)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.2" font-weight="650" fill="#4E7391">Open Source Contributor</text>
+<text x="482" y="224" clip-path="url(#roleClip2)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.2" font-weight="650" fill="#4E7391">Backend &amp; API Builder</text>
+<text x="482" y="224" clip-path="url(#roleClip3)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.2" font-weight="650" fill="#4E7391">Learning Go Systems</text>
+<rect x="482" y="206" width="6" height="22" rx="1.5" fill="#936F3F">
   <animate attributeName="x" values="482;728;728;482;482;768;768;482;482;744;744;482;482;722;722;482;482" keyTimes="0;0.078;0.195;0.238;0.25;0.328;0.445;0.488;0.5;0.578;0.695;0.738;0.75;0.828;0.945;0.988;1" dur="16s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="1;.16;1" dur=".84s" repeatCount="indefinite"/>
 </rect>
-<path d="M482 229H1114" stroke="#DCE1E6"/>
+<path d="M482 242H1114" stroke="#DCE1E6"/>
 
 <g opacity="0" transform="translate(0 5)">
   <animate attributeName="opacity" from="0" to="1" begin="0.52s" dur=".34s" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.52s" dur=".34s" fill="freeze"/>
-  <circle cx="482" cy="252.5" r="2.8" fill="#8E6B3A" opacity=".88"/>
-  <text x="495" y="257" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.15" fill="#66717F">LOCATION</text>
-  <text x="635" y="257" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14.6" font-weight="560" fill="#2E3945">Bengaluru, India</text>
+  <circle cx="482" cy="263.5" r="2.8" fill="#8E6B3A" opacity=".88"/>
+  <text x="495" y="268" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.15" fill="#66717F">LOCATION</text>
+  <text x="635" y="268" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14.6" font-weight="560" fill="#2E3945">Bengaluru, India</text>
 </g>
 <g opacity="0" transform="translate(0 5)">
   <animate attributeName="opacity" from="0" to="1" begin="0.64s" dur=".34s" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.64s" dur=".34s" fill="freeze"/>
-  <circle cx="482" cy="284.5" r="2.8" fill="#8E6B3A" opacity=".88"/>
-  <text x="495" y="289" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.15" fill="#66717F">EDUCATION</text>
-  <text x="635" y="289" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14.6" font-weight="560" fill="#2E3945">B.Tech · Computer Science (AI &amp; ML)</text>
+  <circle cx="482" cy="293.5" r="2.8" fill="#8E6B3A" opacity=".88"/>
+  <text x="495" y="298" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.15" fill="#66717F">EDUCATION</text>
+  <text x="635" y="298" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14.6" font-weight="560" fill="#2E3945">B.Tech · Computer Science (AI &amp; ML)</text>
 </g>
 <g opacity="0" transform="translate(0 5)">
   <animate attributeName="opacity" from="0" to="1" begin="0.76s" dur=".34s" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.76s" dur=".34s" fill="freeze"/>
-  <circle cx="482" cy="316.5" r="2.8" fill="#8E6B3A" opacity=".88"/>
-  <text x="495" y="321" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.15" fill="#66717F">CURRENT FOCUS</text>
-  <text x="635" y="321" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14.6" font-weight="560" fill="#2E3945">Go · cloud-native backend · open source</text>
+  <circle cx="482" cy="323.5" r="2.8" fill="#8E6B3A" opacity=".88"/>
+  <text x="495" y="328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.15" fill="#66717F">CURRENT FOCUS</text>
+  <text x="635" y="328" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14.6" font-weight="560" fill="#2E3945">Go · cloud-native backend · open source</text>
 </g>
 <g opacity="0" transform="translate(0 5)">
   <animate attributeName="opacity" from="0" to="1" begin="0.88s" dur=".34s" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.88s" dur=".34s" fill="freeze"/>
-  <circle cx="482" cy="348.5" r="2.8" fill="#8E6B3A" opacity=".88"/>
-  <text x="495" y="353" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.15" fill="#66717F">BUILDING</text>
-  <text x="635" y="353" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14.6" font-weight="560" fill="#2E3945">Developer tools · APIs · distributed systems</text>
+  <circle cx="482" cy="353.5" r="2.8" fill="#8E6B3A" opacity=".88"/>
+  <text x="495" y="358" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.15" fill="#66717F">BUILDING</text>
+  <text x="635" y="358" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14.6" font-weight="560" fill="#2E3945">Developer tools · APIs · distributed systems</text>
 </g>
-<path d="M482 375H1114" stroke="#DCE1E6"/>
+<path d="M482 378H1114" stroke="#DCE1E6"/>
 <text x="482" y="399" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" font-weight="700" letter-spacing="1.35" fill="#66717F">TECH STACK</text>
 <path d="M577 395H726" stroke="#5E7F9B" stroke-opacity=".46"/>
 <g transform="translate(482 414)" opacity="0">

@@ -31,7 +31,7 @@
   </a>
 </p>
 
-About
+## About
 
 I am a Computer Science student building developer tools, backend systems, and full-stack applications.
 
