@@ -44,19 +44,78 @@ Computer Science student focused on **Go, backend systems, cloud-native engineer
 
 ## Open Source
 
-### CNCF Harbor CLI
+<h3>
+  CNCF Projects
+  <img
+    src="./assets/oss/cncf.png"
+    height="25"
+    alt="CNCF"
+    title="Cloud Native Computing Foundation"
+    align="center"
+  />
+</h3>
 
-I contribute to Harbor's Go-based CLI, working on safer command behavior, reliable error propagation, and registry-maintenance workflows.
+<table>
+  <tr>
+    <td width="110" align="center" valign="middle">
+      <img
+        src="./assets/oss/harbor.png"
+        width="108"
+        alt="Harbor"
+      />
+    </td>
+    <td valign="middle">
+      <strong>Harbor CLI</strong><br />
+      Go CLI contributions covering safer authentication, reliable error
+      handling, configuration flows and registry-maintenance commands.
+      <br /><br />
+      <a href="https://github.com/goharbor/harbor-cli/pulls?q=is%3Apr+author%3Agcharpe1604">
+        View contributions →
+      </a>
+    </td>
+  </tr>
 
-- **Merged:** password flag validation and safer credential guidance
-- **Current work:** `harbor gc history`, retention-flow safety, and configuration and interactive error handling
+  <tr>
+    <td width="110" align="center" valign="middle">
+      <img
+        src="./assets/oss/jaeger.svg"
+        width="62"
+        alt="Jaeger"
+      />
+    </td>
+    <td valign="middle">
+      <strong>Jaeger UI</strong><br />
+      Graph-state synchronization, TypeScript safety and UI refactoring.
+      <br /><br />
+      <a href="https://github.com/jaegertracing/jaeger-ui/pulls?q=is%3Apr+author%3Agcharpe1604">
+        View contributions →
+      </a>
+    </td>
+  </tr>
+</table>
 
-[View Harbor CLI contributions →](https://github.com/goharbor/harbor-cli/pulls?q=is%3Apr+author%3Agcharpe1604)
+<h3>Sugar Labs</h3>
 
-| Project | Contribution focus | Proof |
-|---|---|---|
-| [Sugar Labs Music Blocks](https://github.com/sugarlabs/musicblocks) | Performance, async reliability, error handling, browser lifecycle and UX | [9 merged PRs](https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Agcharpe1604+is%3Amerged) |
-| [Jaeger UI](https://github.com/jaegertracing/jaeger-ui) | Graph state, TypeScript safety and UI refactors | [View PRs](https://github.com/jaegertracing/jaeger-ui/pulls?q=is%3Apr+author%3Agcharpe1604) |
+<table>
+  <tr>
+    <td width="110" align="center" valign="middle">
+      <img
+        src="./assets/oss/sugarlabs.png"
+        width="64"
+        alt="Sugar Labs"
+      />
+    </td>
+    <td valign="middle">
+      <strong>Music Blocks</strong><br />
+      Performance, asynchronous reliability, error handling,
+      browser lifecycle and user-experience improvements.
+      <br /><br />
+      <a href="https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Agcharpe1604+is%3Amerged">
+        9 merged PRs →
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Featured Work
 
@@ -70,7 +129,20 @@ A developer tool that scores commit-message quality, identifies repository-wide 
 
 **Stack:** React, TypeScript, Vite, Supabase and GitHub REST API
 
-[Live Demo](https://gitanalyzer-ai.netlify.app/) · [Source Code](https://github.com/gcharpe1604/gitanalyzer)
+<p>
+  <a href="https://gitanalyzer-ai.netlify.app/">
+    <img
+      src="https://img.shields.io/badge/Live_Demo-4E708F?style=for-the-badge&logo=netlify&logoColor=white"
+      alt="GitAnalyzer live demo"
+    />
+  </a>
+  <a href="https://github.com/gcharpe1604/gitanalyzer">
+    <img
+      src="https://img.shields.io/badge/Source_Code-18181B?style=for-the-badge&logo=github&logoColor=white"
+      alt="GitAnalyzer source code"
+    />
+  </a>
+</p>
 
 ### OpenTrack — In Development
 
@@ -78,7 +150,18 @@ A full-stack contribution tracker for repositories, pull requests, and contribut
 
 **Stack:** React, Node.js, Express and PostgreSQL
 
-[Source Code](https://github.com/gcharpe1604/opentrack)
+<p>
+  <a href="https://github.com/gcharpe1604/opentrack">
+    <img
+      src="https://img.shields.io/badge/Source_Code-18181B?style=for-the-badge&logo=github&logoColor=white"
+      alt="OpenTrack source code"
+    />
+  </a>
+  <img
+    src="https://img.shields.io/badge/Status-In_Development-A47A3C?style=for-the-badge&logo=git&logoColor=white"
+    alt="OpenTrack is in development"
+  />
+</p>
 
 ## GitHub Activity
 
@@ -128,7 +211,40 @@ Contributing   CNCF Harbor CLI, Sugar Labs and Jaeger UI
 
 ## Core Stack
 
-`Go` · `JavaScript` · `TypeScript` · `Python` · `React` · `Tailwind CSS` · `Node.js` · `Express` · `REST APIs` · `PostgreSQL` · `MongoDB` · `MySQL` · `Supabase` · `Docker` · `Git`
+**Languages**
+
+<p>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+
+**Frontend**
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+</p>
+
+**Backend & Data**
+
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+</p>
+
+**Infrastructure & Tools**
+
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
 
 ## Connect
 
