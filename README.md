@@ -76,6 +76,43 @@ A full-stack application for tracking open-source contributions, repositories, p
 
 [Source Code](https://github.com/gcharpe1604/opentrack)
 
+## GitHub Activity
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-stats-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-stats-light.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-stats-light.svg"
+      alt="Govind Charpe's GitHub contribution statistics"
+    />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=gcharpe1604&amp;bg_color=0B0F15&amp;color=8E98A6&amp;line=7897B3&amp;point=D1B178&amp;area=true&amp;area_color=4E708F&amp;hide_border=true&amp;radius=12&amp;days=40&amp;custom_title=Contribution%20Activity"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=gcharpe1604&amp;bg_color=F8FAFC&amp;color=475569&amp;line=4E708F&amp;point=A47A3C&amp;area=true&amp;area_color=AFC3D5&amp;hide_border=true&amp;radius=12&amp;days=40&amp;custom_title=Contribution%20Activity"
+    />
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=gcharpe1604&amp;theme=github-compact&amp;hide_border=true&amp;radius=12&amp;days=40"
+      alt="Govind Charpe's recent GitHub contribution activity"
+      width="100%"
+    />
+  </picture>
+</p>
+
 ## Current Focus
 
 ```text
@@ -104,4 +141,24 @@ I am interested in software engineering internships, open-source mentorships, ba
   <a href="mailto:govind.charpe16@gmail.com">
     <img src="https://img.shields.io/badge/Email-805D36?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+</p>
+
+<br />
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/gcharpe1604/gcharpe1604/output/github-contribution-grid-snake.svg"
+      alt="Contribution snake animation"
+      width="100%"
+    />
+  </picture>
 </p>
