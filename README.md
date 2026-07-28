@@ -20,6 +20,9 @@
   <a href="https://www.linkedin.com/in/govind-charpe">
     <img src="https://img.shields.io/badge/LinkedIn-1E3A5F?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  <a href="https://govind-charpe.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-A47A3C?style=for-the-badge&logo=vercel&logoColor=white" alt="Govind Charpe's portfolio" />
+  </a>
   <a href="mailto:govind.charpe16@gmail.com">
     <img src="https://img.shields.io/badge/Email-805D36?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
